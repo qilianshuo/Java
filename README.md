@@ -1,7 +1,9 @@
 # 关键字——static
 
 它属于整个类所有，而不是某个对象所有，即被类的所有对象共享。
+
 '''java
+
 public class sandabianliang {
 	public static String name = "郭荣涛";
     public int age = 19;
@@ -16,4 +18,5 @@ public class sandabianliang {
 		System.out.println(person.speak("很帅"));
 	}
 }
+
 '''
